@@ -11,7 +11,7 @@ function pegarDados()
         {
             //convertendo string/json para objeto javascript
             const dadosObjeto = JSON.parse(dadosJson.responseText)
-            console.log(dadosObjeto)
+            //console.log(dadosObjeto)
             const nome = dadosObjeto.name
             const seguidores = dadosObjeto.followers
             const fotoPerfilUrl = dadosObjeto.avatar_url
